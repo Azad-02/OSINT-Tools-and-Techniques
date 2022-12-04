@@ -1,0 +1,36 @@
+Google Dorks
+
+Google Dorking involves using specialist search terms and advanced search operators to find results that are not usually displayed using regular 
+search terms. You can use them to search specific file types, cached versions of a particular site, websites containing specific text etc. Bad 
+actors widely use it to locate website configuration files and loopholes left due to bad coding practices. 
+
+Some of the widely used Google dorks are mentioned below:
+1. inurl: Searches for a specified text in all indexed URLs. 
+        For example, 'inurl:hacking' will fetch all URLs containing the word "hacking".
+2. filetype: Searches for specified file extensions. 
+        For example, 'filetype:pdf "hacking" ' will bring all pdf files containing the word "hacking". 
+3. site: Searches all the indexed URLs for the specified domain. 
+        For example, 'site:hostname.com' will bring all the indexed URLs from  hostname.com.
+4. cache: Get the latest cached version by the Google search engine. 
+        For example, 'cache:hostname.com'.
+5. intitle: Enables users to find web pages with a certain word or phrase in the title.
+        For example, 'intitle:final.attendee.list "Fraud" '
+6. intext: Show results where text is in the main body of the text of a website.
+        For example, 'Skopenow intext:OSINT', 'keyword1 intext:keyword2'
+7. allintext: Enables to find web pages that contain a list of keywords in the main text of the web page but not necessarily next to one another.
+        For example, ' allintext: keyword1 keyword2 keyword3 keyword4'
+8. map: Map operator enables users to force Google to show map results for a locational search.
+        For example, 'map:locationname'
+9. *: Wildcard - Represents a wildcard within search strings, taking the place of words or phrases between two keywords.
+        For example, 'keyword1*keyword2', 'robdouglas*com' 
+10. -: Not search term - Minus operator enables users to exclude a word or phrase from search results.
+        For example, 'Github -www.github.com' searches for Github but excludes www.github.com.
+11. + or AND: Enables searching for results that must include two different words phrases. Searching for both X and Y.
+        For example, 'Keyword1ANDkeyword2', 'keyword1+keyword2'
+12. | or OR: enables searching for multiple words as alternatives to one another, locating either X or Y or both.
+        For example, 'keyword1ORkeyword2', 'keyword1|keyword2'
+13. "keyword/phrase": Quotation marks enables to force an exact match for required words or phrases.
+        For example, "an entire phrase to be searched as it is"
+
+For example, you can use the dork 'site:github.com "DB_PASSWORD" ' to search only in github.com and look for the string DB_PASSWORD (possible 
+database credentials).
