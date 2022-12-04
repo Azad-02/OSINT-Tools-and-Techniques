@@ -6,5 +6,40 @@ mechanism between websites and search engine crawlers. Since the file is publicl
 can access robots.txt by simply appending robots.txt at the end of the website URL.
 
 For example.
-	www.google.com/robots.txt
+	 google.com/robots.txt
+
+Sample O/P for google.com/robots.txt
+
+User-agent: *
+Disallow: /search
+Allow: /search/about
+Allow: /search/static
+Allow: /search/howsearchworks
+Disallow: /sdch
+Disallow: /groups
+.
+.
+.
+# AdsBot
+User-agent: AdsBot-Google
+Disallow: /maps/api/js/
+Allow: /maps/api/js
+Disallow: /maps/api/place/js/
+Disallow: /maps/api/staticmap
+Disallow: /maps/api/streetview
+
+# Crawlers of certain social media sites are allowed to access page markup when google.com/imgres* links are shared. To learn more, please contact images-robots-allowlist@google.com.
+User-agent: Twitterbot
+Allow: /imgres
+
+User-agent: facebookexternalhit
+Allow: /imgres
+
+
+
+
+We can see that Google has allowed and disallowed specific URLs for web scrapers and search engines. The disallow parameter helps bad actors to identify sensitive directories that can be manually accessed and exploited, like the admin panel, logs folder, etc. 
+
+
+
 
