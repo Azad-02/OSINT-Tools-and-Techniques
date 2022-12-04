@@ -1,0 +1,10 @@
+Robots.txt
+
+The robots.txt is a publicly accessible file created by the website administrator and intended for search engines to allow or disallow indexing 
+of the website's URLs. All websites have their robots.txt file directly accessible through the domain's main URL. It is a kind of communication 
+mechanism between websites and search engine crawlers. Since the file is publicly accessible, it doesn't mean anyone can edit or modify it. You 
+can access robots.txt by simply appending robots.txt at the end of the website URL.
+
+For example.
+	www.google.com/robots.txt
+
