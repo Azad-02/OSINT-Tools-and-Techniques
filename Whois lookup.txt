@@ -1,0 +1,8 @@
+WHOIS LOOKUP
+
+WHOIS database stores public domain information such as registrant (domain owner), administrative, billing and technical contacts in a 
+centralised database. The database is publicly available for people to search against any domain and enables acquiring Personal Identifiable 
+Information (PII) against a company, like an email address, mobile number etc., of technical contact. 
+
+Website : https://who.is/
+Linux Tool : whois <domain name / IP address>
