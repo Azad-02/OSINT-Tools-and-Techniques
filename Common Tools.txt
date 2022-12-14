@@ -1,0 +1,44 @@
+TOOLS
+
+1. urlscan.io - search website indirectly and get many more info (techs used to website, IPs, redirected links)
+
+2. haveibeenpwned - tells whether email has been breached and from whom
+
+3. copyscape - enter website, tells whether someone is copying this page's content or this page content is copied from someone elses'
+
+4. dnstwister - finds similar domains over internet
+
+5. waybackmachine - go back in time in internet
+
+6. virustotal - detects the maliciousness in URL, file, domain etc
+
+7. spyse.com - Find suubdomains
+             - you may find the sevierity of risk/vulnerabilities on spyse
+             - services or technologies hosted on that server
+             - IP Address of domain/subdomains
+
+8. dnsdumpster.com - find & lookup dns records
+
+
+
+
+
+Another Usefull Sites:
+
+demo.testfire.net - dummy website for reconnaissance
+upes.ac.in - dummy website for reconnaissance
+www.imperva.com
+threatmap.fortiguard.com
+threatmap.checkpoint.com
+www.fireeye.com
+
+- map.lookingglasscyber.com : Map that shows live Attacks globally
+- livethreatmap.radware.com : to know which malware is currently attacking people, what is going on in cyberworld
+
+
+KALI LINUX OSINT TOOLS : 
+
+1. xeuledoc - Finds the owner of the publicly available document
+              >sudo xeuledoc <link of the document>
+              
+
