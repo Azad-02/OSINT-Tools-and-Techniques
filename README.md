@@ -13,5 +13,7 @@ to leave much information on the internet that is publicly available and later o
 TYPES :
 
 ACTIVE - Direct interaction with Target
+
 PASSIVE - No direct Interaction with Target
+
 SEMI PASSIVE - Indirect Jack!
