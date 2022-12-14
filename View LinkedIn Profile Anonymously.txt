@@ -1,0 +1,11 @@
+View linkedIN profile anonymously
+
+1. copy profile link
+
+2. search 'mobile friendly test' on web
+
+3. paste the url 
+
+4. copy html content and paste on html viewer
+
+-- you can see whole profile without them being notified --
