@@ -8,3 +8,10 @@ OSINT is gathering and analysing publicly available data for intelligence purpos
 internet, mass media, specialist journals and research, photos, and geospatial information. The information can be accessed via the 
 open internet (indexed by search engines), closed forums (not indexed by search engines) and even the deep and dark web. People tend 
 to leave much information on the internet that is publicly available and later on results in impersonation, identity theft etc. 
+
+
+TYPES :
+
+ACTIVE - Direct interaction with Target
+PASSIVE - No direct Interaction with Target
+SEMI PASSIVE - Indirect Jack!
