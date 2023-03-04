@@ -1,10 +1,12 @@
 Google Dorks
 
+
 Google Dorking involves using specialist search terms and advanced search operators to find results that are not usually displayed using regular 
 search terms. You can use them to search specific file types, cached versions of a particular site, websites containing specific text etc. Bad 
 actors widely use it to locate website configuration files and loopholes left due to bad coding practices. 
 
 Some of the widely used Google dorks are mentioned below:
+
 1. inurl: Searches for a specified text in all indexed URLs. 
         For example, 'inurl:hacking' will fetch all URLs containing the word "hacking".
 2. filetype: Searches for specified file extensions. 
@@ -21,16 +23,109 @@ Some of the widely used Google dorks are mentioned below:
         For example, ' allintext: keyword1 keyword2 keyword3 keyword4'
 8. map: Map operator enables users to force Google to show map results for a locational search.
         For example, 'map:locationname'
-9. *: Wildcard - Represents a wildcard within search strings, taking the place of words or phrases between two keywords.
+9. cache: Displays the web pages stored in Google cache.
+        For example, 'cache:domainname.com'
+10. link: Lists web pages that have links to specified web page.
+        For example, 'link:facebook.com'
+11. related: Lists web page that are similar to the specified web page.
+        For example, 'related:domain.com'
+12. info: Presents some information that Google has about a specified web page.
+        For example, 'info:domain.com'
+
+13. *: Wildcard - Represents a wildcard within search strings, taking the place of words or phrases between two keywords.
         For example, 'keyword1*keyword2', 'robdouglas*com' 
-10. -: Not search term - Minus operator enables users to exclude a word or phrase from search results.
+14. -: Not search term - Minus operator enables users to exclude a word or phrase from search results.
         For example, 'Github -www.github.com' searches for Github but excludes www.github.com.
-11. + or AND: Enables searching for results that must include two different words phrases. Searching for both X and Y.
+15. + or AND: Enables searching for results that must include two different words phrases. Searching for both X and Y.
         For example, 'Keyword1ANDkeyword2', 'keyword1+keyword2'
-12. | or OR: enables searching for multiple words as alternatives to one another, locating either X or Y or both.
+16. | or OR: enables searching for multiple words as alternatives to one another, locating either X or Y or both.
         For example, 'keyword1ORkeyword2', 'keyword1|keyword2'
-13. "keyword/phrase": Quotation marks enables to force an exact match for required words or phrases.
+
+17. "keyword/phrase": Quotation marks enables to force an exact match for required words or phrases.
         For example, "an entire phrase to be searched as it is"
 
 For example, you can use the dork 'site:github.com "DB_PASSWORD" ' to search only in github.com and look for the string DB_PASSWORD (possible 
 database credentials).
+
+
+
+
+Basic Formula of Dork --
+
+"inurl:."domain"/"dorks" "
+        
+        Here,
+                “inurl” = input URL
+                “domain” = your desired domain ex. .gov
+                “dorks” = your dork of your choice
+
+EXAMPLE -
+
+“inurl:.gov/index.php?id=”
+
+
+
+
+
+DORKING EXAMPLES --
+
+
+--> How to access online cameras using Google Dorks?
+        intitle:webcamXP 5
+        inurl:top.htm inurl:currenttime
+    -> Using the "top.htm" in the URL with the current date and time can fetch the list of live cameras that are publicly exposed.
+        inurl:"lvappl.htm"
+
+--> Dork Command using Multiple Google Dorks:
+        intitle:google filetype:pdf
+    -> Using the "intitle:" query with "filetype:" will filter out all the documents that contain the title and mentioned file format.
+        "allintext:" with "filetype:"
+
+--> How to Explore LOG files for Login Credentials?
+        allintext:password filetype:log after:2021
+    -> Finds the .LOG files accidentally disclosed on the internet having indications about the credentials of any system or information of various admin or user accounts present in the system.
+
+--> How to Explore Open FTP Servers?
+        intitle:"index of" inurl:ftp
+        intitle:"index of" inurl:http after:2021
+        intitle:"forum" inurl:http after:2021
+    -> Explores publicly disclosed FTP Servers unintentionally.
+
+--> Explore Configurations Using ENV files
+        DB_USERNAME filetype:env
+        DB_PASSWORD filetype:enc=v
+    -> .env is used to declare general variables and configurations for local as well as dev environment.
+
+:: NOTE :: Move .env files to somewhere that is not publicly accessible.
+
+
+        
+
+--> Google Dorks for Hacking Purposes:
+        intext:
+        inurl:
+        site:
+        define:
+        info:
+        link:
+        maps:
+        book:
+        weather:
+        movie:
+        phonebook:
+        related:
+
+
+    
+
+   ______________
+:: Recommendation ::
+
+-->       Website owners must configure a file name robots.txt file properly. It is a must to prevent Google Dorks from accessing important data of your site through a google search. Also, it is very important to keep the plugins up to date.         <--
+
+
+
+
+
+
+
