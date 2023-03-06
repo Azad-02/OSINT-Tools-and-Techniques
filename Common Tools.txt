@@ -34,6 +34,9 @@ TOOLS
 15. urlcrazy, dnsenum, theharvestor, superscan
 
 
+16. WEB DATA EXTRACTOR - A web scraping tool specifically designed for mass-gathering of various data types. It can harvest URLs, phone and fax numbers, email addresses, as well as meta tag information and body text.
+
+
 
 
 
