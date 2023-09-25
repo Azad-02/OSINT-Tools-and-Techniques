@@ -1,10 +1,9 @@
-Have I Been Pawned?
+1. Have I Been Pawned?
 
 Major social media and tech giants have suffered data breaches in the past.  As a result, the leaked data is publicly available and, most of the
 time contains PII like usernames, email addresses, mobile numbers and even passwords. Users may use the same password across all the websites; that 
-enables bad actors to re-use the same password against a user on a different platform for a complete account takeover. Many web services offer to check 
-if your email address or phone number is in a leaked database; HaveIBeenPwned is one of the free services. 
-
+enables bad actors to re-use the same password against a user on a different platform for a complete account takeover. Many web services offer to
+check if your email address or phone number is in a leaked database; HaveIBeenPwned is one of the free services. 
 
 URL : https://haveibeenpwned.com/
 
@@ -14,3 +13,17 @@ DB can be Searched for -
     Mobile Numbers 
     Passwords
 
+
+2. DeHashed
+
+Similar website to HaveIBeenPawned.
+
+URL : https://www.dehashed.com/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+These tools can discover information like - 
+
+A. Users who ask questions on public forums such as Stack Overflow but disclose sensitive information such as their credentials in the question.
+B. Developers that upload scripts to services such as Github with credentials hardcoded.
+C. Credentials being disclosed in past breaches since employees used their work accounts to sign up for other external websites.
